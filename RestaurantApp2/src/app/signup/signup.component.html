@@ -1,0 +1,100 @@
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>RestaurantApp2</h1>
+                    <strong>Get Free Membership</strong><hr>
+                </div>
+
+                <form [formGroup]="myform" (ngSubmit)="signup()" >
+                    <div class="forms-group">
+                        <div class="mb-3">
+                            <label for = "exampleInputEmail" > Name</label>
+                            <input type = "name" formControlName = "name" maxlength="20" class="form-control" id="exampleInputEmail" placeholder="Enter your name">
+                        </div>
+                    </div>
+
+                    <div class="forms-group">
+                        <div class="mb-3">
+                            <label for = "exampleInputEmail" > Mobile Number</label>
+                            <input type = "number" formControlName = "Mobile" maxlength="10" class="form-control" id="exampleInputEmail" placeholder="Enetr Your Mobile Number">
+                        </div>
+                    </div>
+
+                    
+                    <div class="forms-group">
+                        <div class="mb-3">
+                            <label for = "exampleInputEmail" > Email Id</label>
+                            <input type = "email" formControlName = "email" maxlength="25" class="form-control" id="exampleInputEmail" placeholder="Enetr Your EmailId">
+                        </div>
+                    </div>
+
+                    <div class="forms-group">
+                        <div class="mb-3">
+                            <label for = "exampleInputEmail" > Password</label>
+                            <input type = "password" formControlName = "password" maxlength="20" class="form-control" id="exampleInputEmail" placeholder="Enetr Your Password">
+                        </div>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">SignUp</button>
+
+                </form>
+
+                <a style="color: rgb(245, 4, 4); margin-top: 10px; " routerLink="/login">Already registered? Click here to Login</a>
+                
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="text-center">
+            <h1>RestaurantApp2</h1>
+            <strong>Get Free Membership</strong>
+            <hr>
+          </div>
+  
+          <form [formGroup]="myform" (ngSubmit)="signup()">
+            <div class="form-group">
+              <div class="mb-3">
+                <label for="name">Name</label>
+                <input type="text" formControlName="name" maxlength="20" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+            </div>
+  
+            <div class="form-group">
+              <div class="mb-3">
+                <label for="mobile">Mobile Number</label>
+                <input type="number" formControlName="mobile" maxlength="10" class="form-control" id="mobile" placeholder="Enter Your Mobile Number">
+              </div>
+            </div>
+  
+            <div class="form-group">
+              <div class="mb-3">
+                <label for="email">Email Id</label>
+                <input type="email" formControlName="email" maxlength="25" class="form-control" id="email" placeholder="Enter Your EmailId">
+              </div>
+            </div>
+  
+            <div class="form-group">
+              <div class="mb-3">
+                <label for="password">Password</label>
+                <input type="password" formControlName="password" maxlength="20" class="form-control" id="password" placeholder="Enter Your Password">
+              </div>
+            </div>
+  
+            <button type="submit" class="btn btn-primary">SignUp</button>
+          </form>
+  
+          <a style="color: rgb(245, 4, 4); margin-top: 10px;" routerLink="/login">Already registered? Click here to Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,92 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "Ahsan",
+      "email": "ahsankazmi2002@gmail.com",
+      "mobile": 12345678,
+      "services": "food service",
+      "address": "Lahore"
+    }
+  ],
+  "comments": [],
+  "signup": [
+    {
+      "name": "Ahsan",
+      "email": "ahsankazmi2002@gmail.com",
+      "mobile": 12345678,
+      "password": "12345678",
+      "id": "1"
+    },
+    {
+      "id": "7a2a",
+      "name": "",
+      "Mobile": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "b05d",
+      "name": "Ahsan",
+      "Mobile": 12345678,
+      "email": "ahsankazmi2002@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "9d46",
+      "name": "",
+      "email": "ahsankazmi2002@gmail.com",
+      "mobile": "",
+      "password": "12345678"
+    },
+    {
+      "id": "2c82",
+      "name": "",
+      "email": "ahsankazmi2002@gmail.com",
+      "mobile": "",
+      "password": "12345678"
+    },
+    {
+      "id": "d680",
+      "name": "ali",
+      "email": "ahsankazmi2002@gmail.com",
+      "mobile": "",
+      "password": "12345678"
+    },
+    {
+      "id": "ef02",
+      "name": "",
+      "email": "ahsankazmi2002@gmail.com",
+      "mobile": "",
+      "password": "12345678"
+    },
+    {
+      "id": "0883",
+      "name": "",
+      "email": "ahsankazmi2002@gmail.com",
+      "mobile": "",
+      "password": "12345678"
+    },
+    {
+      "id": "2a81",
+      "name": "Ahsna",
+      "email": "ahsankazmi2002@gmail.com",
+      "mobile": 12345678,
+      "password": "12345678"
+    },
+    {
+      "id": "b3f9",
+      "name": "Ahsan",
+      "email": "",
+      "mobile": 12345678,
+      "password": ""
+    },
+    {
+      "id": "eba9",
+      "name": "Syed Ahsan Ali Kazmi",
+      "email": "ahsankazmi2002@gmail.com",
+      "mobile": 3304573462,
+      "password": "12345678"
+    }
+  ]
+}

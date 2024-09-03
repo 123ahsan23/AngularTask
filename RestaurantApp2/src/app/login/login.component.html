@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="text-center">
+            <h1>RestaurantApp2</h1>
+            <strong>Feel Free to Login Here</strong>
+            <hr>
+          </div>
+  
+          <form  [formGroup]="formValue" (ngSubmit)="login()">
+           
+  
+            <div class="form-group">
+              <div class="mb-3">
+                <label for="email">Email Id</label>
+                <input type="email" formControlName="email" maxlength="25" class="form-control" id="email" placeholder="Enter Your EmailId">
+              </div>
+            </div>
+  
+            <div class="form-group">
+              <div class="mb-3">
+                <label for="password">Password</label>
+                <input type="password" formControlName="password" maxlength="20" class="form-control" id="password" placeholder="Enter Your Password">
+              </div>
+            </div>
+  
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+  
+          <a style="color: rgb(245, 4, 4); margin-top: 10px;" routerLink="/signup">New User? Click here to register</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
